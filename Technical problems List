@@ -1,0 +1,32 @@
+Q.1. A supermarket wants to build a system to calculate the total bill for each customer who buys multiple items. The number of items a customer buys is unknown in advance.
+The system should:
+1.Ask the customer for the number of items they wish to buy.
+2.For each item, ask for the item price.
+oop (choose the appropriate type) to read all item prices.
+4.Finally, display the total amount to be paid by the customer.
+Use proper loop logic to handle the dynamic number of items.
+Note :
+ - Use a for loop if the number of items is fixed at the start.
+Sample Input :
+Enter number of items: 4  
+Enter price of item 1: 50  
+Enter price of item 2: 30  
+Enter price of item 3: 20  
+Enter price of item 4: 100  
+Sample Output :
+Total bill: 200
+
+Q.2. At the end of the day, your task is to sort these temperature readings in ascending order to generate a report showing how the temperature varied during the day from the lowest to the highest.
+However, due to a legacy system limitation, you're required to use the Bubble Sort algorithm to perform the sorting.
+Write a Java program that:
+1.Accepts an array of temperature readings.
+2.Sorts the array using Bubble Sort.
+3.Displays the sorted readings.
+Sample Test Case 01 :
+Input:  {30, 25, 30, 20, 25}
+Output: {20, 25, 25, 30, 30}
+Sample test case 02 :
+Input:  {32, 28, 35, 30, 25}
+Output: {25, 28, 30, 32, 35}
+
+Q.3. 
