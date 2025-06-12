@@ -1,2 +1,20 @@
 # Technical-Problems
-A collection of my solutions to various technical and coding problems, including challenges from competitive programming, data structures and algorithms, system design exercises, and interview practice. Written primarily in Java, with occasional implementations in C, Python, and other languages.
+This repository contains my personal solutions to a wide range of technical problems, including:
+
+- Data Structures & Algorithms
+- Competitive Programming Challenges
+- Coding Interview Questions
+- Java-based Logic Building Exercises
+
+## 💻 Languages Used
+- Java (Primary)
+- C
+- Python
+- JavaScript (Occasionally)
+
+## 📌 Purpose
+- Strengthen problem-solving skills
+- Maintain a personal archive of tried and tested solutions
+- Prepare for coding interviews and competitive exams
+
+Feel free to explore, learn, or contribute!
