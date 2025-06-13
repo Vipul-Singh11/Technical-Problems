@@ -17,6 +17,7 @@ public class problem3{
     public void count() {
     	if(head == null) {
     		System.out.println("total patients are 0");
+            return;
     	}
     	Node temp = head;
     	int count =0;
