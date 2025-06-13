@@ -29,4 +29,17 @@ Sample test case 02 :
 Input:  {32, 28, 35, 30, 25}
 Output: {25, 28, 30, 32, 35}
 
-Q.3. 
+Q.3. You're building a Hospital Queue Management System. Every patient who enters the hospital is added to a queue implemented using a singly linked list. Each node in the list stores the patient's name and token number.
+At any given time, the admin wants to check how many patients are currently waiting in the queue.
+Your task is to write a Java program that calculates the total number of patients in the queue using a singly linked list.
+Test Case 01 :
+Input:
+Patients: ["John", "Priya", "Ahmed", "Li", "Fatima"]
+Output:
+Total patients in queue: 5
+Test Case 02 :
+Patients: []   
+Output :
+Total patients in queue: 0
+
+Q.4. 
