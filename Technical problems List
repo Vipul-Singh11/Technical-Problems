@@ -58,4 +58,17 @@ User Input:     321eruceSavaJ
 Sample output :
 Login Successful!
 
-Q.5. 
+Q.5. Day 15 - Corporate Questions - Technical Questions - 16.06.2025
+Write a Java program to remove all duplicate characters from a string, preserving the original order of characters.
+Test Case 1:
+Input:
+programming
+Output:
+progamin
+Test Case 2:
+Input:
+abcABCabc
+Output:
+abcABC
+
+Q.6. 
