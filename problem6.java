@@ -21,7 +21,7 @@ class Stack{
 		}else if(set.contains(data)) {
 			System.out.println("Duplicate coach");
 		}else if(top >=0 && isF(a[top]) && isP(data)) {
-			System.out.println("passenger cannot be placed");
+			System.out.println("passenger coach cannot be placed");
 		}else {
 			top++;
 			a[top] = data;
