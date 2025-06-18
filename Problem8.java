@@ -1,4 +1,8 @@
-package placement;
+/*Given an unsorted array, remove duplicates from the array.
+Test Case :
+Input: arr[]={2,3,1,9,3,1,3,9}
+Output:  {2,3,1,9}*/
+
 import java.util.*;
 public class Problem8{
 	public static void main(String[] args) {
