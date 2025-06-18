@@ -1,9 +1,9 @@
 import java.util.*;
-class Tree{
+class TreeNode{
 	int value;
-	Tree left;
-	Tree right;
-	Tree(int value){
+	TreeNode left;
+	TreeNode right;
+	TreeNode(int value){
 		this.value = value;
 		this.left = null;
 		this.right = null;
@@ -11,8 +11,8 @@ class Tree{
 	
 }
 public class Binarytree{
-	Tree root;
-	public void inorder(Tree node) {
+	TreeNode root;
+	public void inorder(TreeNode node) {
 		if(node == null) {
 			return;
 		}
@@ -20,7 +20,7 @@ public class Binarytree{
 			System.out.print(node.value + " ");
 			inorder(node.right);
 	}
-	public void preorder(Tree node) {
+	public void preorder(TreeNode node) {
 		if(node==null) {
 			return;
 		}
@@ -28,7 +28,7 @@ public class Binarytree{
 			preorder(node.left);
 			preorder(node.right);
 	}
-	public void postorder(Tree node) {
+	public void postorder(TreeNode node) {
 		if(node==null) {
 			return;
 		}
@@ -39,13 +39,13 @@ public class Binarytree{
 	
 	public static void main(String[] args) {
 		Binarytree tree = new Binarytree();
-		tree.root = new Tree(1);
-		tree.root.left = new Tree(2);
-		tree.root.right = new Tree(3);
-		tree.root.left.left = new Tree(4);
-		tree.root.left.right = new Tree(5);
-		tree.root.right.left = new Tree(6);
-		tree.root.right.right = new Tree(7);
+		tree.root = new TreeNode(1);
+		tree.root.left = new TreeNode(2);
+		tree.root.right = new TreeNode(3);
+		tree.root.left.left = new TreeNode(4);
+		tree.root.left.right = new TreeNode(5);
+		tree.root.right.left = new TreeNode(6);
+		tree.root.right.right = new TreeNode(7);
 		System.out.print("Inorder: ");
 		tree.inorder(tree.root);
 		System.out.println();
