@@ -1,4 +1,3 @@
-package placement;
 import java.util.*;
 class Tree{
 	int value;
