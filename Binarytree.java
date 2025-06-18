@@ -36,6 +36,12 @@ public class Binarytree{
 		postorder(node.right);
 		System.out.print(node.value + " ");
 	}
+	public int count(TreeNode node) {
+		if(node == null) {
+			return 0;
+		}
+		return 1 + count(node.left) + count(node.right);
+	}
 	
 	public static void main(String[] args) {
 		Binarytree tree = new Binarytree();
@@ -54,5 +60,7 @@ public class Binarytree{
 		System.out.println();
 		System.out.print("postorder: ");
 		tree.postorder(tree.root);
+		int count = tree.count(tree.root);
+		System.out.println(count);
 	}
 }
