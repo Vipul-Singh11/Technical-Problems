@@ -1,4 +1,11 @@
-package placement;
+/*Write a program to find a word in a given string that has the highest number of repeated letters. If not found, return -1.
+Test Case 1:
+Input: string=”abcdefghij google microsoft”
+Output: google
+Test Case 2:
+Input: string = “cameron blue”
+Output: -1*/
+
 import java.util.*;
 public class problem12 {
     public static void main(String[] args) {
