@@ -132,4 +132,12 @@ Input :
 Output :
 TW =130 FW=70
 
-Q.12. 
+Q.12. Write a program to find a word in a given string that has the highest number of repeated letters. If not found, return -1.
+Test Case 1:
+Input: string=”abcdefghij google microsoft”
+Output: google
+Test Case 2:
+Input: string = “cameron blue”
+Output: -1
+
+Q.13. 
