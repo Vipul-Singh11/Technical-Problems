@@ -1,4 +1,13 @@
-package placement;
+/*Given two strings, write a program to remove characters from the first string which are present in the second string.
+Test case 1:
+Input: String str1 = “abcdef”
+           String str2 = “cefz”
+Output: abd
+Test case 2:
+Input: String str1 = “xyzpw”
+           String str2 = “lmno”
+Output: xyzpw*/
+
 import java.util.*;
 public class problem14 {
     public static void main(String[] args) {
