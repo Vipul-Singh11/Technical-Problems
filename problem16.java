@@ -1,4 +1,8 @@
-package placement;
+/*Given a string, write a program to Capitalize the first and last character of each word of that string.
+Test Case 1:
+Input: String str = "take u forward is awesome"
+Output: “TakE U ForwarD IS AwesomE”*/
+
 import java.util.*;
 public class problem16 {
     public static void main(String[] args) {
@@ -14,5 +18,6 @@ public class problem16 {
         		System.out.print(c + " ");
         	}
         }
+        sc.close();
     }
 }
