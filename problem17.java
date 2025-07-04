@@ -1,4 +1,11 @@
-package placement;
+/*Problem Statement: Given a string, calculate the frequency of characters in a string.
+Test Case :
+Input: "aaaBBBccc"
+Output :
+a : 3  
+B : 3  
+c : 3*/
+
 import java.util.*;
 public class problem17 {
     public static void main(String[] args) {
