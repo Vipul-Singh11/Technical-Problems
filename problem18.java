@@ -1,4 +1,15 @@
-package placement;
+/*Find all the repeating elements present in an array.
+Test Case 1:
+Input: 
+Arr[] = [1,1,2,3,4,4,5,2]
+Output:
+1,2,4
+Test Case 2:
+Input:
+Arr[] = [1,1,0]
+Output:
+1*/
+
 import java.util.*;
 public class problem18 {
     public static void main(String[] args) {
