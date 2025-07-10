@@ -1,4 +1,16 @@
-package placement;
+/*Given an array of integers and a target sum, find all unique pairs of elements in the array whose sum is equal to the given target.
+Test case 01
+Array: [1, 2, 3, 4, 5]
+Target Sum: 7
+Pairs:
+(2, 5)
+(3, 4)
+Test case 02 
+Array: [1, 2, 3]
+Target Sum: 10
+Pairs:
+No pairs found.*/
+
 import java.util.*;
 public class problem19 {
     public static void main(String[] args) {
