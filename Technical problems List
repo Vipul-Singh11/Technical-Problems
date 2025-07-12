@@ -223,4 +223,9 @@ Sample input:
 Sample output
 9
 
-Q.21 
+Q.21 Find the First Missing Positive Integer
+Problem: Find the smallest positive integer missing from the array.
+Input: [3, 4, -1, 1]
+Output: 2
+
+Q.22
