@@ -7,10 +7,7 @@ This repository contains my personal solutions to a wide range of technical prob
 - Java-based Logic Building Exercises
 
 ## 💻 Languages Used
-- Java (Primary)
-- C
-- Python
-- JavaScript (Occasionally)
+- Java
 
 ## 📌 Purpose
 - Strengthen problem-solving skills
