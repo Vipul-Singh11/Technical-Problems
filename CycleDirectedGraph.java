@@ -1,8 +1,6 @@
-package placement;
-
 import java.util.ArrayList;
 
-public class CycleDirected {
+public class CycleDirectedGraph {
 	static class Edge{
 		int src;
 		int dest;
