@@ -16,7 +16,7 @@ Output value
 Time Estimated: 25 minutes*/
 
 import java.util.Scanner;
-public class Problem7{
+public class problem7{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter weight:");
