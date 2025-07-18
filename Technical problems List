@@ -251,4 +251,9 @@ Write a Java program to determine the minimum number of jumps required to reach 
 Input: [2, 3, 1, 1, 4]
 Output: 2
 
-Q.24. 
+Q.24. You are given an array of integers. Return the length of the longest subarray with a sum equal to zero.
+Test Case :
+Input: [1, 2, -3, 3, -1, 2, -2]
+Output: 3
+
+Q.25. 
