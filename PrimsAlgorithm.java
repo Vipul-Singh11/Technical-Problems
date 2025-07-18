@@ -1,4 +1,3 @@
-package placement;
 import java.util.*;
 public class PrimsAlgorithm {
 	static class Edge {
