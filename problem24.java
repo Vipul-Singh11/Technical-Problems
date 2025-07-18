@@ -1,4 +1,8 @@
-package placement;
+/*You are given an array of integers. Return the length of the longest subarray with a sum equal to zero.
+Test Case :
+Input: [1, 2, -3, 3, -1, 2, -2]
+Output: 3*/
+
 import java.util.*;
 public class problem24 {
     public static void main(String[] args) {
