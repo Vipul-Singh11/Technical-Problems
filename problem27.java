@@ -1,4 +1,9 @@
-package placement;
+/*Given an array, for each element, find the next greater element to its right. If no greater element exists, assign -1.
+Input:
+arr = [4, 5, 2, 25]
+Output:
+[5, 25, 25, -1]*/
+
 import java.util.*;
 public class problem27 {
     public static void main(String[] args) {
