@@ -278,4 +278,8 @@ arr = [4, 5, 2, 25]
 Output:
 [5, 25, 25, -1]
 
-Q.28. 
+Q.28. Given an integer n, generate the nth term in the "Count and Say" sequence.
+Input: n = 4
+Output: "1211"
+
+Q.29. 
