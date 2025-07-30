@@ -1,4 +1,7 @@
-package placement;
+/*Given an integer n, generate the nth term in the "Count and Say" sequence.
+Input: n = 4
+Output: "1211"*/
+
 import java.util.*;
 public class problem28 {
     public static void main(String[] args) {
