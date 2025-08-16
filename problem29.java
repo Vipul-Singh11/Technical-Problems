@@ -1,4 +1,16 @@
-package placement;
+/*Split Circular Linked List into Two Halves
+Given a circular linked list, split it into two equal halves. If the number of nodes is odd, the first list should contain one extra node.
+Test Case 1:
+Input: 10 ⇄ 20 ⇄ 30 ⇄ 40 ⇄ 50 ⇄ (back to 10)
+Output:
+List 1: 10 ⇄ 20 ⇄ 30
+List 2: 40 ⇄ 50
+Test Case 2:
+Input: A ⇄ B ⇄ C ⇄ D ⇄ E ⇄ F ⇄ (back to A)
+Output:
+List 1: A ⇄ B ⇄ C
+List 2: D ⇄ E ⇄ F*/
+
 import java.util.*;
 class Node {
     int data;
@@ -72,4 +84,5 @@ public class problem29 {
         dcll.splitList();
     }
 }
+
 
