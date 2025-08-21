@@ -1,4 +1,12 @@
-package placement;
+/*Find All Subarrays with Given Sum
+Given an array of integers and a target sum K, print all subarrays that sum to K.
+Test Case 1:
+Input: [1,2,3,4,2], K = 6 
+Output: [1,2,3], [2,4]
+Test Case 2 :
+Input: [3,4,7,2,-3,1,4,2], K = 7 
+Output: [3,4], [7], [7,2,-3,1], [1,4,2]*/
+
 import java.util.*;
 public class problem30 {
 	public static void printarray(int[] arr, int s, int e) {
@@ -30,4 +38,5 @@ public class problem30 {
     	}
     }
 }
+
 
