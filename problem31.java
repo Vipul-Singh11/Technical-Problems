@@ -1,4 +1,18 @@
-package placement;
+/*First Missing Positive Integer
+Find the smallest positive integer missing from the array.
+Test Case 1:
+Input: [1,2,0]
+Output: 3
+Test Case 2:
+Input: [3,4,-1,1]
+Output: 2
+Test Case 3:
+Input: [7, 8, 9, 11, 12]
+Output: 1 
+Test Case 4:
+Input: [1, 2, 3, 4, 5]
+Output: 6*/
+
 import java.util.*;
 public class problem31 {
     public static void main(String[] args) {
@@ -19,4 +33,5 @@ public class problem31 {
     	}
     }
 }
+
 
