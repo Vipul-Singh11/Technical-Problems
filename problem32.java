@@ -1,4 +1,20 @@
-package placement;
+/*Given a string s, count how many distinct substrings can be formed from it.
+A substring is a contiguous sequence of characters inside a string.We only count unique substrings.
+Test case 01 :
+Input :
+s = "ababa"
+Substring are 
+Output :
+a, b, ab, ba, aba, bab, abab, baba, ababa
+Total distinct = 9
+Test case 02 :
+Input :
+s = "aaa"
+Substring are 
+Output :
+a, aa, aaa
+Total distincit = 3*/
+
 import java.util.*;
 public class problem32 {
     public static void main(String[] args) {
@@ -19,4 +35,5 @@ public class problem32 {
     	System.out.println("Total distinct substrings :" + set.size());
     }
 }
+
 
