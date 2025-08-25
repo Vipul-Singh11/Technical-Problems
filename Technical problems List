@@ -319,4 +319,21 @@ Test Case 4:
 Input: [1, 2, 3, 4, 5]
 Output: 6
 
-Q.32. 
+Q.32. Given a string s, count how many distinct substrings can be formed from it.
+A substring is a contiguous sequence of characters inside a string.We only count unique substrings.
+Test case 01 :
+Input :
+s = "ababa"
+Substring are 
+Output :
+a, b, ab, ba, aba, bab, abab, baba, ababa
+Total distinct = 9
+Test case 02 :
+Input :
+s = "aaa"
+Substring are 
+Output :
+a, aa, aaa
+Total distincit = 3
+
+Q.33. 
