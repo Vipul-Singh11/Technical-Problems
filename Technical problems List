@@ -347,4 +347,16 @@ Test Case 02 :
 Input: [0,3,7,2,5,8,4,6,0,1]
 Outuput : 9
 
-Q.34. 
+Q.34. Given an array of strings, find the longest common prefix shared among them.
+If no common prefix exists, return an empty string "".
+Test Case 1 :
+Input: ["flower","flow","flight"]
+Output: fl
+Test Case 2 :
+Input: ["dog","racecar","car"]
+Output: 
+Test Case 3 :
+Input: ["interspecies","interstellar","interstate"]
+Output: inters
+
+Q.35. 
