@@ -1,4 +1,15 @@
-package placement;
+/*Given an array of strings, find the longest common prefix shared among them.
+If no common prefix exists, return an empty string "".
+Test Case 1 :
+Input: ["flower","flow","flight"]
+Output: fl
+Test Case 2 :
+Input: ["dog","racecar","car"]
+Output: 
+Test Case 3 :
+Input: ["interspecies","interstellar","interstate"]
+Output: inters*/
+
 import java.util.*;
 public class problem34 {
     public static void main(String[] args) {
@@ -27,4 +38,5 @@ public class problem34 {
     	System.out.println(res.toString());
     }
 }
+
 
